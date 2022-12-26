@@ -1,0 +1,83 @@
+.root {
+  margin: 0;
+  background-color: #dcd7c9;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.header_link {
+  font-family: "Chivo Mono", monospace;
+  font-weight: 400;
+  font-size: 24px;
+  color: #a27b5c;
+  text-decoration: none;
+  margin-right: 20px;
+}
+.header_link:nth-last-child(3) {
+  margin-right: 0;
+}
+.header_link:hover {
+  color: #3f4e4f;
+}
+.photo_title {
+  font-family: "Chivo Mono", monospace;
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2c3639;
+}
+.main {
+  display: flex;
+  margin-top: 30px;
+}
+.main_about {
+  margin-left: 30px;
+  margin-top: 65px;
+  width: 550px;
+  border: 5px solid #a27b5c;
+  border-radius: 30px;
+  padding: 20px;
+}
+.main_photo-place {
+  margin-left: 30px;
+}
+.main_photo {
+  width: 300px;
+  margin: 0;
+  border: 5px solid #a27b5c;
+  border-radius: 30px;
+}
+
+.main_title {
+  font-family: "Chivo Mono", monospace;
+
+  color: #3f4e4f;
+}
+
+.main_text {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+  color: #2c3639;
+}
+.main_list {
+  list-style: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+
+  color: #2c3639;
+}
+.footer_title {
+  font-family: "Chivo Mono", monospace;
+  margin-left: 50px;
+  color: #3f4e4f;
+}
+.footer_list {
+  list-style: none;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  margin-left: 30px;
+  color: #2c3639;
+}
+.footer_link {
+  text-decoration: none;
+  color: #a27b5c;
+}
